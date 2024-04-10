@@ -3,10 +3,10 @@
 require_once 'access.php';
 
 
-$method = "/api/v4/leads/complex";
+$method = "GET /api/v4/contacts/{id}";
 
 $headers = [
-    'Content-Type: application/json',
+    'Content-Type: application/hal+json',
     'Authorization: Bearer ' . $access_token,
 ];
 
