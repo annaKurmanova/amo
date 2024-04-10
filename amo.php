@@ -3,7 +3,7 @@
 require_once 'access.php';
 alert("Hello, Anya);
 
-$method = "GET/api/v4/contacts/{id}";
+$method = "/api/v4/contacts";
 
 $headers = [
     'Content-Type: application/hal+json',
