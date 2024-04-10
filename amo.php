@@ -1,7 +1,7 @@
 <?php
 
 require_once 'access.php';
-echo("Hello, Anya);
+alert("Hello, Anya);
 
 $method = "GET/api/v4/contacts/{id}";
 
