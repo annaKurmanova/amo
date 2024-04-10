@@ -1,9 +1,9 @@
 <?php
 
 require_once 'access.php';
+echo("Hello, Anya);
 
-
-$method = "GET /api/v4/contacts/{id}";
+$method = "GET/api/v4/contacts/{id}";
 
 $headers = [
     'Content-Type: application/hal+json',
